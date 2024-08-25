@@ -14,6 +14,7 @@ export const umdOutputOptions = {
   format: 'umd',
   globals: {
     vue: 'Vue',
+    'ezuikit-js': 'EZUIKit',
   },
   file: `dist/${pkg.libName}.umd.js`,
   compact: true,

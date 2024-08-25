@@ -12,12 +12,12 @@ import { umdOutputOptions, umdMinOutputOptions, esOutputOptions } from './output
  */
 rollup({
   input: 'src/main.ts',
-  external: ['vue'],
+  external: ['vue', 'ezuikit-js'],
   plugins: [
     typescript({ tsconfig: false, experimentalDecorators: true, module: 'es2015' }),
     nodeResolve(),
     commonjs(),
-    scss({ fileName: 'assets/css/roc-cli-rollup-vue-template.css' }),
+    scss({ fileName: 'assets/css/index.css' }),
     vuePlugin({
       css: false,
     }),

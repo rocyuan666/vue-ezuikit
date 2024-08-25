@@ -1,3 +1,3 @@
-import RocCpn from './components/RocCpn.vue'
+import VueEzuikit from './components/VueEzuikit.vue'
 
-export { RocCpn }
+export default VueEzuikit
